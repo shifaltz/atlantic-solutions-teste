@@ -64,9 +64,12 @@ Banco de Dados: MySQL
   
   Atualmente não existe a funcionalidade de cadastrar um Responsável.
   Para acessar o sistema como um RESPONSÁVEL é necessário usar uma das seguintes massas
-      - EMAIL = admin@atlantic.com        - EMAIL = gerente@atlantic.com
-      - SENHA = 123                       - SENHA = 123
-     
+  
+      - EMAIL = admin@atlantic.com         
+      - SENHA = 123                       
+
+      - EMAIL = gerente@atlantic.com
+      - SENHA = 123
 
     
 
