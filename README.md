@@ -59,6 +59,16 @@ Banco de Dados: MySQL
     - É necessário verificar duas configurações no arquivo `ApplicationProperties`
       - spring.datasource.username= {SEU USUARIO DO BANCO DE DADOS}
       - spring.datasource.password= {SUA SENHA DO BANCO DE DADOS}
+     
+### Massa de dados
+  
+  Atualmente não existe a funcionalidade de cadastrar um Responsável.
+  Para acessar o sistema como um RESPONSÁVEL é necessário usar uma das seguintes massas
+      - EMAIL = admin@atlantic.com        - EMAIL = gerente@atlantic.com
+      - SENHA = 123                       - SENHA = 123
+     
+
+    
 
   
   
