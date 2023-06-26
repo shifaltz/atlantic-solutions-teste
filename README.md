@@ -21,7 +21,7 @@ Configurado com padrão MAVEN e com as configurações do SPRING
 Versão: Java 17
 Banco de Dados: MySQL
 
-- Dependencias
+- Dependências
   - Spring Boot DevTools
   - Thymeleaf
   - Spring Web
@@ -32,7 +32,7 @@ Banco de Dados: MySQL
 
 ## Instalação do projeto
 
-1. Clonagem o projeto:
+1. Clonagem do projeto:
 
    - Abrir o terminal do seu sistema
    - Vá até a pasta onde deseja clonar o projeto
@@ -41,5 +41,25 @@ Banco de Dados: MySQL
      `git clone <url_do_projeto>`
 
    - Depois de executar o **_git clone_** entre no diretório onde o projeto se encontra.
+  
+2. Instalação do IntelliJ:
+
+   - Faça o download do IntelliJ em
+   [Download IntelliJ](https://www.jetbrains.com/pt-br/idea/download/?section=windows).
+
+3. Criar Banco de Dados (MySQL)
+
+   - CREATE DATABASE teste_pratico
+   - Importar o SQL que está localizado o arquivo do banco de dados
+     [SQL](https://github.com/shifaltz/atlantic-solutions-teste/blob/master/banco_de_dados/AtlanticTeste.sql).
+
+4. Configurando ApplicationProperties
+
+  - É necessário verificar duas configurações no arquivo `ApplicationProperties`
+    spring.datasource.username= {SEU USER NAME}
+    spring.datasource.password= {SUA SENHA}
+
+  
+  
 
 
