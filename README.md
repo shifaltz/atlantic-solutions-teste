@@ -55,9 +55,9 @@ Banco de Dados: MySQL
 
 4. Configurando ApplicationProperties
 
-  - É necessário verificar duas configurações no arquivo `ApplicationProperties`
-    - spring.datasource.username= {SEU USER NAME}
-    - spring.datasource.password= {SUA SENHA}
+    - É necessário verificar duas configurações no arquivo `ApplicationProperties`
+      - spring.datasource.username= {SEU USER NAME}
+      - spring.datasource.password= {SUA SENHA}
 
   
   
