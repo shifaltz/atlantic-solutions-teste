@@ -46,6 +46,7 @@ Banco de Dados: MySQL
 
    - Faça o download do IntelliJ em
    [Download IntelliJ](https://www.jetbrains.com/pt-br/idea/download/?section=windows).
+   - Após a instalação do IntelliJ, execute-o e abra um projeto existente (Projeto Clonado do GitHub, diretório "atlantic-solutions-teste\testepratico").
 
 3. Criar Banco de Dados (MySQL):
 
