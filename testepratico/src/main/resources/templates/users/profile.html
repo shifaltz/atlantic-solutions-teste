@@ -10,7 +10,7 @@
                 <img src="https://www.atlanticsolutions.com.br/assets/img/atlanticsolutions_branco.png" alt="d">
             </div>
             <section class='container-login'>
-                <div class="container-profile">
+                <div class="card">
                     <div class="container-logout">
                         <a href="/authentication/logout">
                             <svg width="30px" height="30px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none">
@@ -18,24 +18,48 @@
                             </svg>
                         </a>
                     </div>
-                    <div class="box-name-profile">
-                        <span th:text="${session.user.name}"></span>
-                    </div>
-                    <div class="container-datas-profile">
-                        <div class="box-datas">
-                            <div class="title-datas">EMAIL</div>
-                            <span th:text="${session.user.email}"></span>
-                        </div>
-                        <div class="box-datas">
-                            <div class="title-datas">CPF</div>
-                            <span th:text="${session.user.cpf}"></span>
-                        </div>
-                        <div class="box-datas">
-                            <div class="title-datas">RESPONSAVEL</div>
-                            <span th:text="${session.user.idResponsible.name}"></span>
+                    <div class="infos">
+                        <div class="info">
+                            <div>
+                                <p class="name" th:text="${session.user.name}">
+                                </p>
+                                <p class="box-email" th:text="${session.user.email}">
+                                </p>
+                            </div>
+                            <div class="stats">
+                                <p class="flex flex-col">
+                                    CPF
+                                    <span class="state-value" th:text="${session.user.cpf}">
+                                    </span>
+                                </p>
+                                <p class="flex flex-col">
+                                    Responsável
+                                    <span class="state-value" th:text="${session.user.idResponsible.name}">
+                                    </span>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
+
+<!--                    <div class="box-name-profile">-->
+<!--                        <span th:text="${session.user.name}"></span>-->
+<!--                    </div>-->
+<!--                    <div class="container-datas-profile">-->
+<!--                        <div class="box-datas">-->
+<!--                            <div class="title-datas">EMAIL</div>-->
+<!--                            <span th:text="${session.user.email}"></span>-->
+<!--                        </div>-->
+<!--                        <div class="box-datas">-->
+<!--                            <div class="title-datas">CPF</div>-->
+<!--                            <span th:text="${session.user.cpf}"></span>-->
+<!--                        </div>-->
+<!--                        <div class="box-datas">-->
+<!--                            <div class="title-datas">RESPONSAVEL</div>-->
+<!--                            <span th:text="${session.user.idResponsible.name}"></span>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
             </section>
         </div>
     </body>
